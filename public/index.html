@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <title>reffacil - aprendizaje en línea</title>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>reffacil - aprendizaje en línea</title>
+  <script type="module" src="js/firebase.js"></script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BJF8KZY74W"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-BJF8KZY74W');
+  </script>
 </head>
 <body>
   <h1>Tu recurso de aprendizaje en línea</h1>
@@ -79,7 +90,9 @@
   </header>
 
   <!-- Programming, scripting, and markup languages -->
-  <article id="javascript">
+  <article
+    id="javascript"
+    data-keywords="">
     <h2>JavaScript</h2>
     <p>JavaScript es un lenguaje de programación de alto nivel, interpretado y orientado a objetos que se utiliza principalmente en el desarrollo web. A diferencia de HTML y CSS, que se centran en la estructura y la presentación de una página web, JavaScript se encarga de la interactividad y la lógica del lado del cliente.</p>
     <p>En pocas palabras, JavaScript es el "cerebro" de una página web. Permite la manipulación y modificación dinámica de elementos HTML y CSS, además de brindar la capacidad de realizar cálculos, interactuar con el usuario, gestionar eventos, realizar peticiones a servidores y crear animaciones y efectos visuales.</p>
