@@ -1,0 +1,11 @@
+*{box-sizing: border-box;}
+
+/* Dispositivos de alta resolución como laptops, pantallas o PC's de escritorios*/
+@media only screen and (min-width: 1200px) {}
+
+/* Estilo para dispositivos pequeños como celulares y algunas tablets */
+@media only screen and (max-width: 768px){}
+
+/* Dispositivos de resolución media como tablets y algunas laptops*/
+@media only screen and (min-width: 768px) and (max-width: 1200px){}
+
